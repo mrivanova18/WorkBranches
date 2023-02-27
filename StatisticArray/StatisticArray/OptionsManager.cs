@@ -27,5 +27,9 @@ namespace StatisticArray
         {
             Console.WriteLine(string.Join(", ",arr));
         }
+        public static int MinNum(int[] arr)
+        {
+            return arr.Min();
+        }
     }
 }
